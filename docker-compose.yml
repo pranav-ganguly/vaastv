@@ -1,0 +1,14 @@
+version: '2.2'
+services:
+    elk:
+        image: vaastv:v1
+        container_name: elk
+        ports:
+            - "5601:5601"
+            - "9200:9200"
+            - "5044:5044"
+            - "9300:9300"
+        volumes:
+            - elkdata:/var/lib/elasticsearch
+volumes:
+    elkdata:
