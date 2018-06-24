@@ -1,0 +1,309 @@
+[
+  {
+    "_id": "29430c70-73cd-11e8-b122-ddb5e4062730",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Data Warehouse Status Mob",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":23,\"w\":12,\"h\":3,\"i\":\"2\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"Aggregate Daily Runtime\":\"#447EBC\"},\"legendOpen\":false}},\"id\":\"164055f0-73b5-11e8-b122-ddb5e4062730\",\"title\":\"Aggregate Runtime \",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":16,\"w\":12,\"h\":3,\"i\":\"3\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"Change Slope\":\"#BF1B00\",\"Daily Average Throughput\":\"#3F6833\",\"Rate of Change\":\"#6ED0E0\"},\"legendOpen\":false}},\"id\":\"dcb7f890-73b1-11e8-b85a-e38203475a2f\",\"title\":\"Throughput\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":19,\"w\":12,\"h\":4,\"i\":\"4\"},\"id\":\"89cda8a0-7398-11e8-961b-95d6cc017103\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":26,\"w\":12,\"h\":4,\"i\":\"5\"},\"embeddableConfig\":{\"spy\":null,\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"id\":\"379601e0-73b6-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":9,\"w\":12,\"h\":3,\"i\":\"6\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"Average Input Rejection Percentage\":\"#EF843C\",\"Average Input Rejection(%)\":\"#C15C17\",\"Moving Avg\":\"#890F02\",\"Moving Avg of Average Input Rejection(%)\":\"#447EBC\"},\"legendOpen\":false}},\"id\":\"c4f6acf0-73b7-11e8-b122-ddb5e4062730\",\"title\":\"Input Rejection\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":0,\"y\":12,\"w\":12,\"h\":4,\"i\":\"7\"},\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"asc\"}}}},\"id\":\"532269d0-73b1-11e8-b85a-e38203475a2f\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":3,\"w\":12,\"h\":3,\"i\":\"8\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"ABORTED\":\"#890F02\",\"FAILED\":\"#E0752D\",\"SUCCESSFUL\":\"#629E51\"},\"legendOpen\":true}},\"id\":\"6c842130-73ba-11e8-b122-ddb5e4062730\",\"title\":\"Job Status\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":0,\"y\":0,\"w\":12,\"h\":3,\"i\":\"9\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"ABORTED\":\"#890F02\",\"FAILED\":\"#E0752D\",\"SUCCESSFUL\":\"#629E51\"},\"legendOpen\":true}},\"id\":\"fb43ae10-73bd-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":0,\"y\":6,\"w\":12,\"h\":3,\"i\":\"10\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"Input Growth Rate\":\"#BF1B00\",\"Input Volume\":\"#CCA300\",\"Serial Diff of Input Volume\":\"#BF1B00\"},\"legendOpen\":false}},\"id\":\"a52d61d0-73c0-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":0,\"y\":34,\"w\":12,\"h\":3,\"i\":\"12\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"Latency (milliseconds)\":\"#E5AC0E\"},\"legendOpen\":false}},\"id\":\"5c3bc560-73c6-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":0,\"y\":30,\"w\":12,\"h\":4,\"i\":\"13\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"50th percentile of Median Latency\":\"#E0752D\",\"Average Latency (milliseconds)\":\"#705DA0\",\"Min Latency\":\"#6ED0E0\"}}},\"id\":\"db33a080-73c7-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2018-03-30T18:29:59.999Z",
+      "timeFrom": "2017-12-31T18:30:00.000Z",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9a32dea0-73b5-11e8-b122-ddb5e4062730",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Data Warehouse Status",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":12,\"w\":8,\"h\":3,\"i\":\"2\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"id\":\"164055f0-73b5-11e8-b122-ddb5e4062730\",\"title\":\"Aggregate Runtime \",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":9,\"w\":8,\"h\":3,\"i\":\"3\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"Change Slope\":\"#BF1B00\",\"Daily Average Throughput\":\"#629E51\"},\"legendOpen\":false}},\"id\":\"dcb7f890-73b1-11e8-b85a-e38203475a2f\",\"title\":\"Throughput\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":8,\"y\":9,\"w\":4,\"h\":3,\"i\":\"4\"},\"id\":\"89cda8a0-7398-11e8-961b-95d6cc017103\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":8,\"y\":12,\"w\":4,\"h\":3,\"i\":\"5\"},\"embeddableConfig\":{\"spy\":null,\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"id\":\"379601e0-73b6-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":6,\"w\":8,\"h\":3,\"i\":\"6\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"Average Input Rejection Percentage\":\"#EF843C\",\"Average Input Rejection(%)\":\"#C15C17\",\"Moving Avg\":\"#890F02\",\"Moving Avg of Average Input Rejection(%)\":\"#447EBC\"},\"legendOpen\":false}},\"id\":\"c4f6acf0-73b7-11e8-b122-ddb5e4062730\",\"title\":\"Input Rejection\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":8,\"y\":6,\"w\":4,\"h\":3,\"i\":\"7\"},\"id\":\"532269d0-73b1-11e8-b85a-e38203475a2f\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":3,\"y\":0,\"w\":9,\"h\":3,\"i\":\"8\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"ABORTED\":\"#890F02\",\"FAILED\":\"#E0752D\",\"SUCCESSFUL\":\"#629E51\"},\"legendOpen\":true}},\"id\":\"6c842130-73ba-11e8-b122-ddb5e4062730\",\"title\":\"Job Status\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":0,\"y\":0,\"w\":3,\"h\":3,\"i\":\"9\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"ABORTED\":\"#890F02\",\"FAILED\":\"#E0752D\",\"SUCCESSFUL\":\"#629E51\"},\"legendOpen\":false}},\"id\":\"fb43ae10-73bd-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":0,\"y\":3,\"w\":12,\"h\":3,\"i\":\"10\"},\"embeddableConfig\":{\"vis\":{\"colors\":{\"Input Growth Rate\":\"#70DBED\",\"Input Volume\":\"#EAB839\",\"Serial Diff of Input Volume\":\"#BF1B00\"},\"legendOpen\":true}},\"id\":\"a52d61d0-73c0-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":6,\"y\":15,\"w\":6,\"h\":3,\"i\":\"12\"},\"id\":\"5c3bc560-73c6-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":0,\"y\":15,\"w\":6,\"h\":3,\"i\":\"13\"},\"id\":\"db33a080-73c7-11e8-b122-ddb5e4062730\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":0,\"y\":18,\"w\":12,\"h\":3,\"i\":\"14\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"5abc0940-7531-11e8-beb7-9fb57ccdf8f9\"}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2018-03-30T18:29:59.999Z",
+      "timeFrom": "2017-12-31T18:30:00.000Z",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "c4f6acf0-73b7-11e8-b122-ddb5e4062730",
+    "_type": "visualization",
+    "_source": {
+      "title": "Input Rejection Trend",
+      "visState": "{\"title\":\"Input Rejection Trend\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Average Input Rejection(%)\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"},{\"data\":{\"id\":\"3\",\"label\":\"Moving Avg of Average Input Rejection(%)\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"line\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Average Input Rejection(%)\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"badInputPct\",\"customLabel\":\"Average Input Rejection(%)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"startTime\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":0,\"extended_bounds\":{},\"customLabel\":\"Date\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"moving_avg\",\"schema\":\"metric\",\"params\":{\"metricAgg\":\"1\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Average Input Rejection Percentage\":\"#EF843C\",\"Moving Avg\":\"#890F02\",\"Average Input Rejection(%)\":\"#EF843C\",\"Moving Avg of Average Input Rejection(%)\":\"#890F02\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"entityType\",\"value\":\"INPUT\",\"params\":{\"query\":\"INPUT\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"entityType\":{\"query\":\"INPUT\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "6c842130-73ba-11e8-b122-ddb5e4062730",
+    "_type": "visualization",
+    "_source": {
+      "title": "Job Status Trend",
+      "visState": "{\"title\":\"Job Status Trend\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"percentage\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Jobs By Status\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"area\",\"mode\":\"stacked\",\"data\":{\"label\":\"Jobs By Status\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Jobs By Status\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"startTime\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Day\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"status.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"FAILED\":\"#E0752D\",\"ABORTED\":\"#890F02\"},\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "164055f0-73b5-11e8-b122-ddb5e4062730",
+    "_type": "visualization",
+    "_source": {
+      "title": "Daily Runtime Trend",
+      "visState": "{\"title\":\"Daily Runtime Trend\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Aggregate Daily Runtime\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Aggregate Daily Runtime\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"timeInMins\",\"customLabel\":\"Aggregate Daily Runtime\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"startTime\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"entityType\",\"value\":\"JOB\",\"params\":{\"query\":\"JOB\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"entityType\":{\"query\":\"JOB\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "89cda8a0-7398-11e8-961b-95d6cc017103",
+    "_type": "visualization",
+    "_source": {
+      "title": "Bottom 5 Jobs by Throughput",
+      "visState": "{\"title\":\"Bottom 5 Jobs by Throughput\",\"type\":\"table\",\"params\":{\"perPage\":5,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":1,\"direction\":\"asc\"},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"jobId.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"asc\",\"orderBy\":\"4\",\"customLabel\":\"Job ID\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"throughput\",\"customLabel\":\"Avg. Throughput (Records/Min)\"}},{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeInMins\",\"customLabel\":\"Average Time (Minutes)\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"asc\"}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"key\":\"entityType\",\"negate\":false,\"params\":{\"query\":\"JOB\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"JOB\"},\"query\":{\"match\":{\"entityType\":{\"query\":\"JOB\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"key\":\"status.keyword\",\"negate\":false,\"params\":{\"query\":\"SUCCESSFUL\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"SUCCESSFUL\"},\"query\":{\"match\":{\"status.keyword\":{\"query\":\"SUCCESSFUL\",\"type\":\"phrase\"}}}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "532269d0-73b1-11e8-b85a-e38203475a2f",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 5 Inputs by Record Rejection",
+      "visState": "{\"title\":\"Top 5 Inputs by Record Rejection\",\"type\":\"table\",\"params\":{\"perPage\":5,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"badInputPct\",\"customLabel\":\"Average Input Rejection (%)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"inputDescription.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Input\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"key\":\"entityType\",\"negate\":false,\"params\":{\"query\":\"INPUT\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"INPUT\"},\"query\":{\"match\":{\"entityType\":{\"query\":\"INPUT\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"key\":\"valid\",\"negate\":false,\"params\":{\"query\":true,\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"true\"},\"query\":{\"match\":{\"valid\":{\"query\":true,\"type\":\"phrase\"}}}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "379601e0-73b6-11e8-b122-ddb5e4062730",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 5 Jobs by Runtime",
+      "visState": "{\"title\":\"Top 5 Jobs by Runtime\",\"type\":\"table\",\"params\":{\"perPage\":5,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeInMins\",\"customLabel\":\"Average Runtime (mins)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"jobId.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Job\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"entityType\",\"value\":\"JOB\",\"params\":{\"query\":\"JOB\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"entityType\":{\"query\":\"JOB\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"status\",\"value\":\"SUCCESSFUL\",\"params\":{\"query\":\"SUCCESSFUL\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"status\":{\"query\":\"SUCCESSFUL\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "dcb7f890-73b1-11e8-b85a-e38203475a2f",
+    "_type": "visualization",
+    "_source": {
+      "title": "Throughput Trend",
+      "visState": "{\"title\":\"Throughput Trend\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Daily Average Throughput\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"},{\"data\":{\"id\":\"3\",\"label\":\"Rate of Change\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"line\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Daily Average Throughput\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"throughput\",\"customLabel\":\"Daily Average Throughput\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"startTime\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":0,\"extended_bounds\":{},\"customLabel\":\"Day\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"derivative\",\"schema\":\"metric\",\"params\":{\"metricAgg\":\"1\",\"customLabel\":\"Rate of Change\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Change Slope\":\"#0A437C\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"entityType\",\"value\":\"JOB\",\"params\":{\"query\":\"JOB\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"entityType\":{\"query\":\"JOB\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"status\",\"value\":\"SUCCESSFUL\",\"params\":{\"query\":\"SUCCESSFUL\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"status\":{\"query\":\"SUCCESSFUL\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a52d61d0-73c0-11e8-b122-ddb5e4062730",
+    "_type": "visualization",
+    "_source": {
+      "title": "Input Growth",
+      "visState": "{\"title\":\"Input Growth\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Input Volume\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Input Volume\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"3\",\"label\":\"Input Growth Rate\"},\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"inputCount\",\"customLabel\":\"Input Volume\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"startTime\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":0,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"derivative\",\"schema\":\"metric\",\"params\":{\"metricAgg\":\"1\",\"customLabel\":\"Input Growth Rate\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Input Volume\":\"#EAB839\",\"Serial Diff of Input Volume\":\"#BF1B00\"},\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "5c3bc560-73c6-11e8-b122-ddb5e4062730",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 Queries by Latency",
+      "visState": "{\"title\":\"Top 10 Queries by Latency\",\"type\":\"horizontal_bar\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Latency (milliseconds)\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Latency (milliseconds)\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTakenMillis\",\"customLabel\":\"Latency (milliseconds)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"inputDescription.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Query\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Latency (milliseconds)\":\"#E5AC0E\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "04f6ace0-7518-11e8-beb7-9fb57ccdf8f9",
+    "_type": "visualization",
+    "_source": {
+      "title": "Error Trend",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"2\",\"params\":{\"customInterval\":\"2h\",\"customLabel\":\"Date\",\"extended_bounds\":{},\"field\":\"startTime\",\"interval\":\"d\",\"min_doc_count\":0},\"schema\":\"segment\",\"type\":\"date_histogram\"},{\"enabled\":true,\"id\":\"4\",\"params\":{\"customLabel\":\"Daily Error Count\"},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"5\",\"params\":{\"customLabel\":\"Count Change Trend\",\"customMetric\":{\"enabled\":true,\"id\":\"5-metric\",\"params\":{\"customMetric\":{\"enabled\":true,\"id\":\"5-metric-metric\",\"params\":{\"customMetric\":{\"enabled\":true,\"id\":\"5-metric-metric-metric\",\"params\":{},\"schema\":{\"aggFilter\":[\"!top_hits\",\"!percentiles\",\"!percentile_ranks\",\"!median\",\"!std_dev\"],\"deprecate\":false,\"editor\":false,\"group\":\"none\",\"hideCustomLabel\":true,\"max\":null,\"min\":0,\"name\":\"metricAgg\",\"params\":[],\"title\":\"Metric Agg\"},\"type\":\"count\"},\"metricAgg\":\"custom\"},\"schema\":{\"aggFilter\":[\"!top_hits\",\"!percentiles\",\"!percentile_ranks\",\"!median\",\"!std_dev\"],\"deprecate\":false,\"editor\":false,\"group\":\"none\",\"hideCustomLabel\":true,\"max\":null,\"min\":0,\"name\":\"metricAgg\",\"params\":[],\"title\":\"Metric Agg\"},\"type\":\"derivative\"},\"metricAgg\":\"custom\"},\"schema\":{\"aggFilter\":[\"!top_hits\",\"!percentiles\",\"!percentile_ranks\",\"!median\",\"!std_dev\"],\"deprecate\":false,\"editor\":false,\"group\":\"none\",\"hideCustomLabel\":true,\"max\":null,\"min\":0,\"name\":\"metricAgg\",\"params\":[],\"title\":\"Metric Agg\"},\"type\":\"moving_avg\"},\"metricAgg\":\"custom\"},\"schema\":\"metric\",\"type\":\"moving_avg\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"bottom\",\"seriesParams\":[{\"data\":{\"id\":\"4\",\"label\":\"Daily Error Count\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"},{\"data\":{\"id\":\"5\",\"label\":\"Count Change Trend\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"line\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"line\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Daily Error Count\"},\"type\":\"value\"}]},\"title\":\"Error Trend\",\"type\":\"line\"}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Count Change Trend\":\"#BF1B00\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"entityType\",\"value\":\"ERROR\",\"params\":{\"query\":\"ERROR\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"entityType\":{\"query\":\"ERROR\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "1ecef4d0-7516-11e8-beb7-9fb57ccdf8f9",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 5 jobs by Failure Count",
+      "visState": "{\"title\":\"Top 5 jobs by Failure Count\",\"type\":\"horizontal_bar\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Count of Failures\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Count of Failures\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Count of Failures\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"jobId.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Job\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"entityType\",\"value\":\"JOB\",\"params\":{\"query\":\"JOB\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"entityType\":{\"query\":\"JOB\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":true,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"status\",\"value\":\"SUCCESSFUL\",\"params\":{\"query\":\"SUCCESSFUL\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"status\":{\"query\":\"SUCCESSFUL\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "db33a080-73c7-11e8-b122-ddb5e4062730",
+    "_type": "visualization",
+    "_source": {
+      "title": "Query Latency Trend",
+      "visState": "{\"title\":\"Query Latency Trend\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"6\",\"label\":\"Max, Min and Median Latency (milliseconds)\"},\"valueAxis\":\"ValueAxis-1\"},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"7\",\"label\":\"Min\"},\"valueAxis\":\"ValueAxis-1\"},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"8\",\"label\":\"Median\"},\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Max, Min and Median Latency (milliseconds)\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"startTime\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"6\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTakenMillis\",\"customLabel\":\"Max, Min and Median Latency (milliseconds)\"}},{\"id\":\"7\",\"enabled\":true,\"type\":\"min\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTakenMillis\",\"customLabel\":\"Min\"}},{\"id\":\"8\",\"enabled\":true,\"type\":\"median\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTakenMillis\",\"percents\":[50],\"customLabel\":\"Median\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b81997b0-7518-11e8-beb7-9fb57ccdf8f9",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 Errors",
+      "visState": "{\"title\":\"Top 10 Errors\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"message.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Error\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"meta\":{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"entityType\",\"value\":\"ERROR\",\"params\":{\"query\":\"ERROR\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"entityType\":{\"query\":\"ERROR\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "fb43ae10-73bd-11e8-b122-ddb5e4062730",
+    "_type": "visualization",
+    "_source": {
+      "title": "Job Status Spread",
+      "visState": "{\"title\":\"Job Status Spread\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"top\",\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"43eaed20-738e-11e8-961b-95d6cc017103\",\"key\":\"entityType\",\"negate\":false,\"params\":{\"query\":\"JOB\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"JOB\"},\"query\":{\"match\":{\"entityType\":{\"query\":\"JOB\",\"type\":\"phrase\"}}}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "5abc0940-7531-11e8-beb7-9fb57ccdf8f9",
+    "_type": "visualization",
+    "_source": {
+      "title": "KPI#1 2σ Control Chart",
+      "visState": "{\"title\":\"KPI#1 2σ Control Chart\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"filter\":\"name.keyword:KPI#1\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"mockmetrics*\",\"interval\":\"\",\"legend_position\":\"bottom\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"\",\"formatter\":\"number\",\"id\":\"e3cce660-752b-11e8-8a4b-87c2a4390474\",\"label\":\"Weekly Moving Avg\",\"line_width\":\"1\",\"metrics\":[{\"field\":\"value\",\"id\":\"e3cce661-752b-11e8-8a4b-87c2a4390474\",\"sigma\":\"\",\"type\":\"max\"},{\"field\":\"e3cce661-752b-11e8-8a4b-87c2a4390474\",\"id\":\"97380850-752d-11e8-8a4b-87c2a4390474\",\"minimize\":0,\"model\":\"ewma\",\"settings\":\"\",\"type\":\"moving_average\",\"window\":7}],\"point_size\":\"3\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"none\",\"steps\":0},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(61,211,21,1)\",\"fill\":\"1\",\"filter\":\"\",\"formatter\":\"number\",\"id\":\"35a45e30-752e-11e8-8a4b-87c2a4390474\",\"label\":\"Value\",\"line_width\":\"2\",\"metrics\":[{\"field\":\"value\",\"id\":\"35a45e31-752e-11e8-8a4b-87c2a4390474\",\"sigma\":\"\",\"type\":\"max\"}],\"point_size\":\"3\",\"seperate_axis\":0,\"split_color_mode\":\"gradient\",\"split_mode\":\"everything\",\"stacked\":\"none\",\"steps\":0},{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"rgba(219,223,0,1)\",\"fill\":\"0\",\"filter\":\"\",\"formatter\":\"number\",\"id\":\"3f634330-7530-11e8-870e-23f0c696466b\",\"label\":\"Bounds\",\"line_width\":\"2\",\"metrics\":[{\"field\":\"value\",\"id\":\"3f634331-7530-11e8-870e-23f0c696466b\",\"sigma\":\"\",\"type\":\"max\"},{\"field\":\"3f634331-7530-11e8-870e-23f0c696466b\",\"id\":\"3f634332-7530-11e8-870e-23f0c696466b\",\"minimize\":0,\"model\":\"ewma\",\"settings\":\"\",\"type\":\"moving_average\",\"window\":7},{\"field\":\"3f634332-7530-11e8-870e-23f0c696466b\",\"id\":\"43e4aca0-7530-11e8-870e-23f0c696466b\",\"mode\":\"band\",\"sigma\":\"2\",\"type\":\"std_deviation_bucket\"}],\"point_size\":\"1\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"none\",\"steps\":0}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"startTime\",\"type\":\"timeseries\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  }
+]
